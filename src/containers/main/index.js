@@ -37,19 +37,19 @@ function Main() {
       return (
         <div
           key={item.id}
-          className="main-body"
+          className="main-website"
         >
-          <h6 className="main-body-title" id={`${item.name}`}>{item.name}</h6>
-          <div className="main-body-list row">
+          <h6 className="main-website-title" id={`${item.name}`}>{item.name}</h6>
+          <div className="main-website-list row">
             {
               item.children && item.children.map(child => {
                 return (
                   <div
                     key={child.siteName}
-                    className="main-body-list-item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"
+                    className="main-website-list-item col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3"
                   >
                     <a
-                      className="main-body-list-item-link"
+                      className="main-website-list-item-link"
                       href={child.siteLink || 'www.baidu.com'}
                       rel="noopener noreferrer"
                       target="_blank"
@@ -57,15 +57,15 @@ function Main() {
                       {
                         child.siteLogo && (
                           <img
-                            className="main-body-list-item-logo"
+                            className="main-website-list-item-logo"
                             src={child.siteLogo}
                             alt=""
                           />
                         )
                       }
-                      <div className="main-body-list-item-content">
-                        <div className="main-body-list-item-name">{child.siteName}</div>
-                        <div className="main-body-list-item-description">{child.description}</div>
+                      <div className="main-website-list-item-content">
+                        <div className="main-website-list-item-name">{child.siteName}</div>
+                        <div className="main-website-list-item-description">{child.description}</div>
                       </div>
                     </a>
                   </div>
