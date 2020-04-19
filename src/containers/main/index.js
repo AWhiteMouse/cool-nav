@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Select, Drawer, BackTop } from 'antd';
+import { Select, Tooltip, Drawer, BackTop } from 'antd';
 import CONFIG from '../../common/config';
 import { BarsOutlined } from '@ant-design/icons';
 import './index.styl';
@@ -123,8 +123,8 @@ function Main() {
       return (
         <p>
           <a
-          href={`#${item.name}`}
-          className="main-drawer-content-item"
+            href={`#${item.name}`}
+            className="main-drawer-content-item"
           >
             {item.name}
           </a>
@@ -170,12 +170,15 @@ function Main() {
 
       {renderWebsite()}
 
-      <div
-        className="main-drawer-handle"
-        onClick={handleShowDrawer}
-      >
-        <BarsOutlined />
-      </div>
+      <Tooltip placement="right" title="目录">
+        <div
+          className="main-drawer-handle"
+          onClick={handleShowDrawer}
+        >
+          <BarsOutlined />
+        </div>
+      </Tooltip>
+
 
       <Drawer
         title="目录"
