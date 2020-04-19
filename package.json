@@ -2,6 +2,7 @@
   "name": "cool-nav",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,6 +11,7 @@
     "babel-plugin-import": "^1.13.0",
     "bootstrap": "^4.4.1",
     "customize-cra": "^0.9.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.5",
     "react-bootstrap": "^1.0.0",
@@ -22,7 +24,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
