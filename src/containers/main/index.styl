@@ -1,0 +1,135 @@
+.main {
+  height: 100%;
+
+  &-title {
+    padding-top: 3rem;
+    text-align: center;
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.15);
+
+    h1 {
+      font-size: 2em;
+    }
+  }
+
+  &-search {
+    position: relative;
+    margin-bottom: 2rem;
+    box-shadow: 0.5rem 0.875rem 2.375rem rgba(39, 44, 49, 0.06), 0.0625rem 0.1875rem 0.5rem rgba(39, 44, 49, 0.03);
+
+    .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+      height: 40px;
+
+      .ant-select-selection-search-input {
+        height: 38px;
+      }
+
+      .ant-select-selection-placeholder {
+        line-height: 38px;
+      }
+    }
+
+    &-icon {
+      position: absolute;
+      right: 15px;
+      top: 1px;
+      font-size: 20px;
+      color: #ccc;
+      cursor: pointer;
+    }
+  }
+
+  &-body {
+    &-title {
+      padding-top: 15px;
+      color: #555;
+    }
+
+    &-list {
+      &-item {
+        margin-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &-link {
+          display: flex;
+          align-items: flex-start;
+          padding: 10px;
+          height: 88px;
+          color: #555;
+          background-color: #fff;
+          box-shadow: 0.5rem 0.875rem 2.375rem rgba(39, 44, 49, 0.06), 0.0625rem 0.1875rem 0.5rem rgba(39, 44, 49, 0.03);
+          border: 1px solid #eee;
+          border-radius: 5px;
+        }
+
+        &-logo {
+          position: relative;
+          margin-top: 3px;
+          margin-right: 10px;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            background-color: #eee;
+            border-radius: 50%;
+          }
+        }
+
+        &-content {
+          flex: 1;
+        }
+
+        &-name {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          font-weight: 700;
+        }
+
+        &-description {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          color: #888 !important;
+        }
+      }
+    }
+  }
+
+  &-drawer-handle {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  &-drawer-content-item {
+    position: relative;
+    color: #555;
+
+    // &:before {
+    //   content: '';
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 0;
+    //   right: 0;
+    //   height: 0.125rem;
+    //   background-color: #333;
+    //   transform-origin: bottom right;
+    //   transform: scaleX(0);
+    //   transition: transform 0.5s ease;
+    // }
+  }
+}

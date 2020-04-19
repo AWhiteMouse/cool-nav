@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './common/styles/taobao.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
+import App from './containers/main/index';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
