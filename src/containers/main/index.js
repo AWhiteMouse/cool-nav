@@ -16,13 +16,13 @@ function Main() {
 
   const options = websites.map(item => {
     return item.children && item.children.map(child => {
-      const { siteName, siteLink } = child;
+      const { siteName, siteLink, description } = child;
       return siteName && siteLink && (
         <Option
           key={siteName}
           value={siteLink}
         >
-          {siteName}
+          {`${siteName} - ${description}`}
         </Option>
       )
     })
@@ -39,7 +39,7 @@ function Main() {
           key={item.id}
           className="main-website"
         >
-          <h6 className="main-website-title" id={`${item.name}`}>{item.name}</h6>
+          <h5 className="main-website-title" id={`${item.name}`}>{item.name}</h5>
           <div className="main-website-list row">
             {
               item.children && item.children.map(child => {
@@ -110,6 +110,10 @@ function Main() {
   //   setWebsites(websites);
   // }
 
+  function handleSelectFilter(input, option) {
+    return option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0;
+  }
+
   function handleShowDrawer() {
     setVisible(true);
   }
@@ -121,7 +125,7 @@ function Main() {
   function renderDrawerContent() {
     return websites.map(item => {
       return (
-        <p>
+        <p key={item.id}>
           <a
             href={`#${item.name}`}
             className="main-drawer-content-item"
@@ -136,7 +140,7 @@ function Main() {
   return (
     <div className="main container">
       <header className="main-title">
-        <h1>CoolNav - 趣导航</h1>
+        <h1>CoolNav - 快导航</h1>
       </header>
 
       <div className="main-search">
@@ -152,10 +156,9 @@ function Main() {
           onChange={handleChange}
           notFoundContent={null}
           optionFilterProp="children"
+
           // eslint-disable-next-line react/jsx-no-duplicate-props
-          filterOption={(input, option) => {
-            return option.children.indexOf(input) >= 0
-          }}
+          filterOption={handleSelectFilter}
         >
           {options}
         </Select>
@@ -170,14 +173,14 @@ function Main() {
 
       {renderWebsite()}
 
-      <Tooltip placement="right" title="目录">
-        <div
-          className="main-drawer-handle"
-          onClick={handleShowDrawer}
-        >
-          <BarsOutlined />
-        </div>
-      </Tooltip>
+      {/* <Tooltip placement="right" title="目录"> */}
+      <div
+        className="main-drawer-handle"
+        onClick={handleShowDrawer}
+      >
+        <BarsOutlined />
+      </div>
+      {/* </Tooltip> */}
 
 
       <Drawer

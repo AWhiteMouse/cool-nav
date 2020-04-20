@@ -303,6 +303,12 @@ const config = {
                     "siteLink": "https://fed.taobao.org/",
                     "siteLogo": "//img.alicdn.com/tfs/TB1snCqkbj1gK0jSZFuXXcrHpXa-45-45.png",
                     "siteName": "淘系前端团队（FED）"
+                },
+                {
+                    "description": "专业，创造力，激情，设计。京东用户体验设计部门，致力于创造更美好的电子商务购物体验。JDC关注于电子商务视觉设计、交互设计、用户研究、前端开发。",
+                    "siteLink": "https://jdc.jd.com/",
+                    "siteLogo": "//www.jd.com/favicon.ico",
+                    "siteName": "JDC | 京东设计中心"
                 }
             ],
         },

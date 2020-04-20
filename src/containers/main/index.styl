@@ -16,6 +16,10 @@
     margin-bottom: 2rem;
     box-shadow: 0.5rem 0.875rem 2.375rem rgba(39, 44, 49, 0.06), 0.0625rem 0.1875rem 0.5rem rgba(39, 44, 49, 0.03);
 
+    .ant-select-single .ant-select-selector .ant-select-selection-item, .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+      line-height: 38px;
+    }
+
     .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
       height: 40px;
 
@@ -60,7 +64,7 @@
           box-shadow: 0.5rem 0.875rem 2.375rem rgba(39, 44, 49, 0.06), 0.0625rem 0.1875rem 0.5rem rgba(39, 44, 49, 0.03);
           border: 1px solid #eee;
           border-radius: 5px;
-          translate: all .3s;
+          translate: all 0.3s;
 
           &:hover {
             // height: 120px;
@@ -125,18 +129,5 @@
   &-drawer-content-item {
     position: relative;
     color: #555;
-
-    // &:before {
-    //   content: '';
-    //   position: absolute;
-    //   bottom: 0;
-    //   left: 0;
-    //   right: 0;
-    //   height: 0.125rem;
-    //   background-color: #333;
-    //   transform-origin: bottom right;
-    //   transform: scaleX(0);
-    //   transition: transform 0.5s ease;
-    // }
   }
 }
