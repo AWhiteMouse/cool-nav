@@ -136,7 +136,7 @@ function Main() {
   return (
     <div className="main container">
       <header className="main-title">
-        <h1>CoolNav - 网站集锦</h1>
+        <h1>CoolNav - 趣导航</h1>
       </header>
 
       <div className="main-search">
