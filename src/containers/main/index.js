@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Select, Tooltip, Drawer, BackTop } from 'antd';
+import { Select, Drawer, BackTop } from 'antd';
 import CONFIG from '../../common/config';
 import { BarsOutlined } from '@ant-design/icons';
 import './index.styl';
