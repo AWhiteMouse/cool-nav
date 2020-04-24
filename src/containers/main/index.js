@@ -140,7 +140,7 @@ function Main() {
   return (
     <div className="main container">
       <header className="main-title">
-        <h1>CoolNav - 快导航</h1>
+        <h1>KuGo - 快导航</h1>
       </header>
 
       <div className="main-search">
