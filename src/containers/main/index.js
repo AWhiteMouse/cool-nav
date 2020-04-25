@@ -7,6 +7,10 @@ import './index.styl';
 const { WEBSITE } = CONFIG;
 const { Option } = Select;
 
+for (let i = 0; i < WEBSITE.length; i++) {
+  WEBSITE[i].id = i;
+}
+
 const websites = WEBSITE;
 
 function Main() {

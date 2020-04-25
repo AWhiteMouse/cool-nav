@@ -1,7 +1,7 @@
 const config = {
     WEBSITE: [
         {
-            id: 1,
+            // id: 1,
             name: '内容工具',
             children: [
                 {
@@ -85,7 +85,7 @@ const config = {
             ],
         },
         {
-            id: 2,
+            // id: 2,
             name: '图片工具',
             children: [
                 {
@@ -121,7 +121,7 @@ const config = {
             ],
         },
         {
-            id: 3,
+            // id: 3,
             name: 'Markdown工具',
             children: [
                 {
@@ -151,7 +151,7 @@ const config = {
             ],
         },
         {
-            id: 4,
+            // id: 4,
             name: '效率工具',
             children: [
                 {
@@ -235,7 +235,7 @@ const config = {
             ],
         },
         {
-            id: 5,
+            // id: 5,
             name: '专栏博客',
             children: [
                 {
@@ -265,7 +265,7 @@ const config = {
             ],
         },
         {
-            id: 6,
+            // id: 6,
             name: '技术社区',
             children: [
                 {
@@ -313,7 +313,7 @@ const config = {
             ],
         },
         {
-            id: 7,
+            // id: 7,
             name: 'MVVM',
             children: [
                 {
@@ -337,7 +337,7 @@ const config = {
             ],
         },
         {
-            id: 8,
+            // id: 8,
             name: '动画库',
             children: [
                 {
@@ -361,7 +361,7 @@ const config = {
             ],
         },
         {
-            id: 9,
+            // id: 9,
             name: 'UI库',
             children: [
                 {
@@ -379,7 +379,7 @@ const config = {
             ],
         },
         {
-            id: 10,
+            // id: 10,
             name: '手势库',
             children: [
                 {
@@ -391,7 +391,7 @@ const config = {
             ],
         },
         {
-            id: 11,
+            // id: 11,
             name: '虚拟列表',
             children: [
                 {
@@ -405,6 +405,24 @@ const config = {
                     "siteLink": "https://github.com/bvaughn/react-virtualized",
                     "siteLogo": "",
                     "siteName": "react-virtualized"
+                }
+            ],
+        },
+        {
+            // id: 11,
+            name: '网盘搜索',
+            children: [
+                {
+                    "description": "超能搜搜索引擎收录了数十款百度网盘搜索引擎，百度云网盘搜索工具，百度云网盘解析工具，最干净、最好用的资源搜索引擎。提供影视、书籍、软件等资源推荐以及整合信息，让我们更快捷、更平等的获取资源信息",
+                    "siteLink": "https://www.chaonengso.com/",
+                    "siteLogo": "https://www.chaonengso.com/favicon.ico",
+                    "siteName": "超能搜 - 百度网盘搜索神器"
+                },
+                {
+                    "description": "大圣盘，百度网盘搜索神器，可快速搜索百度网盘资源中的有效连接，自动识别无效的百度资源，每天更新海量资源。官网地址 https://www.dalipan.com",
+                    "siteLink": "https://www.dashengpan.com/",
+                    "siteLogo": "https://www.dashengpan.com/favicon.ico",
+                    "siteName": "网盘搜索，就用大圣盘 - 最好用的百度网盘搜索引擎"
                 }
             ],
         },
