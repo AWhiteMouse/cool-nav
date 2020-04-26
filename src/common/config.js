@@ -16,6 +16,12 @@ const config = {
                     siteName: "MikuTools - 一个轻量的工具集合"
                 },
                 {
+                    description: "快搜！虫部落全网独家首发出品！为你聚合Google,百度,必应等国内外综合搜索和学术,资源,专业领域知识等垂直搜索。精准搜索,便捷交互！是你的网络搜索第一站！",
+                    siteLink: "https://www.chongbuluo.com/",
+                    siteLogo: "https://www.chongbuluo.com/favicon.ico",
+                    siteName: "虫部落-让搜索更简单！"
+                },
+                {
                     description: "设计师网址导航专注分享优秀设计网站、免费无版权限制可商用的高品质素材，设计教程、尺寸规范、配色方案、设计素材和灵感",
                     siteLink: "http://hao.shejidaren.com/",
                     siteLogo: "http://hao.shejidaren.com/images/favicon.ico",
@@ -109,6 +115,12 @@ const config = {
         {
             name: '图片工具',
             children: [
+                {
+                    description: "Make your website faster and save bandwidth. TinyPNG optimizes your PNG images by 50-80% while preserving full transparency!",
+                    siteLink: "https://tinypng.com/",
+                    siteLogo: "https://tinypng.com/images/favicon.ico",
+                    siteName: "TinyPNG – Compress PNG images while preserving transparency"
+                },
                 {
                     description: "GIF之家,最好的GIF在线图片压缩和GIF在线制作工具,专业的JPG、PNG、GIF图片压缩工具软件、GIF格式转换工具、GIF动图裁剪工具,视频转gif软件哪个好？就找GIF之家。",
                     siteLink: "https://tool.gifhome.com/",
