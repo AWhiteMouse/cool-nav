@@ -145,7 +145,7 @@ function Main() {
     <div className="main container">
       <header className="main-title">
         <h1>
-          <a href="/">
+          <a href="/KuGo/">
             KuGo - 快导航
           </a>
         </h1>

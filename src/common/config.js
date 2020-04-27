@@ -140,6 +140,12 @@ const config = {
                     siteName: "Sprite Cow - Generate CSS for sprite sheets"
                 },
                 {
+                    description: "路过图床, 免费公共图床, 提供图片上传和图片外链服务, 原图保存, 全球CDN加速.",
+                    siteLink: "https://imgchr.com/",
+                    siteLogo: "https://imgchr.com/content/images/system/favicon_1587118523486_91617a.png",
+                    siteName: "路过图床 - 免费图片上传, 专业图片外链, 免费公共图床"
+                },
+                {
                     description: "列出您您选择的图片上的所有颜色",
                     siteLink: "http://www.jiniannet.com/page/allcolor",
                     siteLogo: "http://www.jiniannet.com/favicon.ico",
