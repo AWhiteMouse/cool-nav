@@ -216,6 +216,12 @@ const config = {
                     siteName: "Colorgg颜色大全"
                 },
                 {
+                    description: "文本对比工具致力于更专业的文本对比服务，提供最高级最全面的文本、代码、文件对比功能。",
+                    siteLink: "http://www.newjson.com/Static/Tools/Diff.html",
+                    siteLogo: "",
+                    siteName: "在线文件对比工具 - newjson.com"
+                },
+                {
                     description: "OSCHINA.NET在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具",
                     siteLink: "https://tool.oschina.net/diff/",
                     siteLogo: "https://tool.oschina.net/img/favicon.ico",
