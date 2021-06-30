@@ -1,6 +1,17 @@
 const config = {
     WEBSITE: [
         {
+            name: '在线编码',
+            children: [
+                {
+                    description: "针对 Web 开发者的在线 IDE，自动化的脚手架配置",
+                    siteLink: "https://stackblitz.com/",
+                    siteLogo: "https://c.staticblitz.com/assets/favicon-7453cf0c12d349fb64b7aa2b69cc69c026f083a27f139f0839b1f4948bed6811.png",
+                    siteName: "StackBlitz"
+                }
+            ]
+        },
+        {
             name: '工具箱',
             children: [
                 {
