@@ -46,7 +46,7 @@ const config = {
                 {
                     description: "石墨文档是一款轻便、简洁的在线协作文档工具，PC端和移动端全覆盖，支持多人同时对文档编辑和评论，让你与他人轻松完成协作撰稿、方案讨论、会议记录和资料共享等工作。",
                     siteLink: "https://shimo.im/",
-                    siteLogo: "https://assets.smcdn.cn/from_qbox/favicon.ico",
+                    siteLogo: "https://as.smvm.cn/from_qbox/favicon.ico",
                     siteName: "石墨文档"
                 },
                 {
@@ -88,7 +88,7 @@ const config = {
                 {
                     description: "One-click ready-to-code development environments for GitHub.",
                     siteLink: "https://gitpod.io/",
-                    siteLogo: "https://gitpod.io/images/gitpod-196x196.png",
+                    siteLogo: "https://gitpod.io/favicon192.png",
                     siteName: "Gitpod"
                 },
                 {
@@ -109,18 +109,18 @@ const config = {
                     siteLogo: "https://pan.baidu.com/static/images/favicon.ico",
                     siteName: "百度网盘"
                 },
-                {
-                    description: "PanDownload网页版,百度网盘分享链接在线解析工具",
-                    siteLink: "https://www.baiduwp.com/",
-                    siteLogo: "https://pandownload.com/favicon.ico",
-                    siteName: "PanDownload"
-                },
-                {
-                    description: "ePUBw.com 提供最新最全的优质 kindle, epub, mobi, azw3, pdf 电子书下载和分享的网站",
-                    siteLink: "https://epubw.com/",
-                    siteLogo: "https://epubw.com/favicon.ico",
-                    siteName: "ePUBw.COM-免费优质电子书下载"
-                }
+                // {
+                //     description: "PanDownload网页版,百度网盘分享链接在线解析工具",
+                //     siteLink: "https://www.baiduwp.com/",
+                //     siteLogo: "https://pandownload.com/favicon.ico",
+                //     siteName: "PanDownload"
+                // },
+                // {
+                //     description: "ePUBw.com 提供最新最全的优质 kindle, epub, mobi, azw3, pdf 电子书下载和分享的网站",
+                //     siteLink: "https://epubw.com/",
+                //     siteLogo: "https://epubw.com/favicon.ico",
+                //     siteName: "ePUBw.COM-免费优质电子书下载"
+                // }
             ],
         },
         {
@@ -132,18 +132,18 @@ const config = {
                     siteLogo: "https://tinypng.com/images/favicon.ico",
                     siteName: "TinyPNG – Compress PNG images while preserving transparency"
                 },
-                {
-                    description: "GIF之家,最好的GIF在线图片压缩和GIF在线制作工具,专业的JPG、PNG、GIF图片压缩工具软件、GIF格式转换工具、GIF动图裁剪工具,视频转gif软件哪个好？就找GIF之家。",
-                    siteLink: "https://tool.gifhome.com/",
-                    siteLogo: "https://tool.gifhome.com/favicon.ico",
-                    siteName: "GIF工具之家"
-                },
-                {
-                    description: "图片剪切工具、专业在线图片切割工具，可以对图片进行部份切割并生成新图片，本图片切割器支持动态图片在线制作。欢迎使用",
-                    siteLink: "https://www.asqql.com/gifc/",
-                    siteLogo: "https://www.asqql.com/favicon.ico",
-                    siteName: "图片剪切工具_动图基地"
-                },
+                // {
+                //     description: "GIF之家,最好的GIF在线图片压缩和GIF在线制作工具,专业的JPG、PNG、GIF图片压缩工具软件、GIF格式转换工具、GIF动图裁剪工具,视频转gif软件哪个好？就找GIF之家。",
+                //     siteLink: "https://tool.gifhome.com/",
+                //     siteLogo: "https://tool.gifhome.com/favicon.ico",
+                //     siteName: "GIF工具之家"
+                // },
+                // {
+                //     description: "图片剪切工具、专业在线图片切割工具，可以对图片进行部份切割并生成新图片，本图片切割器支持动态图片在线制作。欢迎使用",
+                //     siteLink: "https://www.asqql.com/gifc/",
+                //     siteLogo: "https://www.asqql.com/favicon.ico",
+                //     siteName: "图片剪切工具_动图基地"
+                // },
                 {
                     description: "自动生成雪碧图中每个图标的background、width、height属性",
                     siteLink: "http://www.spritecow.com/",
@@ -182,7 +182,7 @@ const config = {
                 {
                     description: "Wechat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器",
                     siteLink: "https://doocs.github.io/md/",
-                    siteLogo: "https://doocs.github.io/assets/images/favicon.png",
+                    siteLogo: "https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/md/images/favicon.png",
                     siteName: "微信 Markdown 编辑器"
                 },
                 {
@@ -226,12 +226,12 @@ const config = {
                     siteLogo: "https://www.colorgg.com/favicon.ico",
                     siteName: "Colorgg颜色大全"
                 },
-                {
-                    description: "文本对比工具致力于更专业的文本对比服务，提供最高级最全面的文本、代码、文件对比功能。",
-                    siteLink: "http://www.newjson.com/Static/Tools/Diff.html",
-                    siteLogo: "",
-                    siteName: "在线文件对比工具 - newjson.com"
-                },
+                // {
+                //     description: "文本对比工具致力于更专业的文本对比服务，提供最高级最全面的文本、代码、文件对比功能。",
+                //     siteLink: "http://www.newjson.com/Static/Tools/Diff.html",
+                //     siteLogo: "",
+                //     siteName: "在线文件对比工具 - newjson.com"
+                // },
                 {
                     description: "OSCHINA.NET在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具",
                     siteLink: "https://tool.oschina.net/diff/",
@@ -291,12 +291,12 @@ const config = {
         {
             name: '专栏博客',
             children: [
-                {
-                    description: "极客学院 Wiki 为中国最大 IT 职业在线教育平台极客学院旗下图文开发技术教程站点，拥有海量 IT 图文教程，涵盖 30+ 个技术领域，如 Android, iOS, Java, Python, HTML5, Swift, Cocos2dx, Apple Watch 等图文教程。",
-                    siteLink: "https://wiki.jikexueyuan.com/",
-                    siteLogo: "https://wiki.jikexueyuan.com/assets/favicon.ico",
-                    siteName: "极客学院wiki"
-                },
+                // {
+                //     description: "极客学院 Wiki 为中国最大 IT 职业在线教育平台极客学院旗下图文开发技术教程站点，拥有海量 IT 图文教程，涵盖 30+ 个技术领域，如 Android, iOS, Java, Python, HTML5, Swift, Cocos2dx, Apple Watch 等图文教程。",
+                //     siteLink: "https://wiki.jikexueyuan.com/",
+                //     siteLogo: "https://wiki.jikexueyuan.com/assets/favicon.ico",
+                //     siteName: "极客学院wiki"
+                // },
                 {
                     description: "可能是全网最给力的前端面试项目",
                     siteLink: "https://www.cxymsg.com/",
@@ -329,7 +329,7 @@ const config = {
                 {
                     description: "SegmentFault 思否是中国领先的新一代开发者社区和专业的技术媒体。我们为中文开发者提供纯粹、高质的技术交流平台以及最前沿的技术行业动态，帮助更多的开发者获得认知和能力的提升。自社区上线以来在广大开发者群体中享有极高的口碑及影响力，以技术问答、技术专栏、技术课程、技术资讯为核心的产品形态，目前已经覆盖和服务了超过 300 万开发者，同时 SegmentFault 思否团队也是中国区最大的黑客马拉松 Hackathon 创新力赛事组织者。 腾讯、阿里、百度、美团、京东、滴滴、360等上千个技术团队已经入驻思否社区，我们也欢迎热爱技术的你一起加入交流与学习。",
                     siteLink: "https://segmentfault.com/",
-                    siteLogo: "https://cdn.segmentfault.com/v-5e745490/global/img/favicon.ico",
+                    siteLogo: "https://static.segmentfault.com/main_site/24af6277/favicon.ico",
                     siteName: "思否"
                 },
                 {
@@ -341,7 +341,7 @@ const config = {
                 {
                     description: "凹凸实验室(Aotu.io) 始建于2015年，是一个年轻基情的技术社区组织。O2面向多终端技术体系，致力于构建沉淀与分享包括但不限于交互、页面制作技巧、前端开发、原生APP开发等方面的专业知识及案例。",
                     siteLink: "https://aotu.io/",
-                    siteLogo: "https://aotu.io/img/favicon.ico",
+                    siteLogo: "https://tls.jd.com/o2-website/favicon.ico",
                     siteName: "凹凸实验室"
                 },
                 {
